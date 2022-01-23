@@ -16,6 +16,7 @@
 		84BD163D279D5DC800E1D321 /* RandomPhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD163C279D5DC800E1D321 /* RandomPhotoTests.swift */; };
 		84BD1647279D5DC800E1D321 /* RandomPhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD1646279D5DC800E1D321 /* RandomPhotoUITests.swift */; };
 		84BD1649279D5DC800E1D321 /* RandomPhotoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD1648279D5DC800E1D321 /* RandomPhotoUITestsLaunchTests.swift */; };
+		84BD1658279D6BCE00E1D321 /* Utils in Resources */ = {isa = PBXBuildFile; fileRef = 84BD1657279D6BCE00E1D321 /* Utils */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		84BD1642279D5DC800E1D321 /* RandomPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BD1646279D5DC800E1D321 /* RandomPhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoUITests.swift; sourceTree = "<group>"; };
 		84BD1648279D5DC800E1D321 /* RandomPhotoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPhotoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84BD1657279D6BCE00E1D321 /* Utils */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utils; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		84BD1619279D5DC700E1D321 = {
 			isa = PBXGroup;
 			children = (
+				84BD1657279D6BCE00E1D321 /* Utils */,
 				84BD1624279D5DC700E1D321 /* RandomPhoto */,
 				84BD163B279D5DC800E1D321 /* RandomPhotoTests */,
 				84BD1645279D5DC800E1D321 /* RandomPhotoUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				84BD1632279D5DC800E1D321 /* LaunchScreen.storyboard in Resources */,
 				84BD162F279D5DC800E1D321 /* Assets.xcassets in Resources */,
+				84BD1658279D6BCE00E1D321 /* Utils in Resources */,
 				84BD162D279D5DC700E1D321 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
